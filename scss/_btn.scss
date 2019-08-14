@@ -1,0 +1,20 @@
+.btn {
+    display: block;
+    height: 30px;
+    width: 125px;
+    text-align: center;
+    text-transform: uppercase;
+    color: $color-btn;
+    font-size: 12px;
+    border: 1px solid $color-btn;
+    border-radius: 15px;
+    padding: 8px 28px;
+    box-sizing: border-box;
+    text-decoration: none;
+    &.center {
+        margin: 0 auto;
+    }
+    &:hover {
+        opacity: .8;
+    }
+}

@@ -1,18 +1,3 @@
-@font-face {
-  font-family: "ProximaNova-Regular";
-  src: url("../fonts/ProximaNova/ProximaNova-Regular.eot");
-  src: url("../fonts/ProximaNova/ProximaNova-Regular.woff") format("woff"), url("../fonts/ProximaNova/ProximaNova-Regular.ttf") format("truetype"); }
-
-@font-face {
-  font-family: "ProximaNova-Bold";
-  src: url("../fonts/ProximaNova/ProximaNova-Bold.eot");
-  src: url("../fonts/ProximaNova/ProximaNova-Bold.woff") format("woff"), url("../fonts/ProximaNova/ProximaNova-Bold.ttf") format("truetype"); }
-
-@font-face {
-  font-family: "ProximaNova-Semibold";
-  src: url("../fonts/ProximaNova/ProximaNova-Semibold.eot");
-  src: url("../fonts/ProximaNova/ProximaNova-Semibold.woff") format("woff"), url("../fonts/ProximaNova/ProximaNova-Semibold.ttf") format("truetype"); }
-
 body {
   background-color: #fafafa;
   color: #262626;
@@ -28,28 +13,6 @@ body {
 
 .mb-0 {
   margin-bottom: 0 !important; }
-
-.btn-wrapp {
-  display: block;
-  width: 100%; }
-
-.btn {
-  display: block;
-  height: 30px;
-  width: 125px;
-  text-align: center;
-  text-transform: uppercase;
-  color: #000;
-  font-size: 12px;
-  border: 1px solid #000;
-  border-radius: 15px;
-  padding: 8px 28px;
-  box-sizing: border-box;
-  text-decoration: none; }
-  .btn.center {
-    margin: 0 auto; }
-  .btn:hover {
-    opacity: .8; }
 
 header {
   background-color: #fff;
